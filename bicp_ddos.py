@@ -69,9 +69,9 @@ def buildblock(size):
 	return(out_str)
 
 def usage():
-	print('---------------------------------------------------')
-	print('USAGE: python3 bicp_ddos.py <url>')
 	print('Stay With BICP Team')
+	print('Run Command: python3 bicp_ddos.py <url>')
+	print('---------------------------------------------------')
 	print("\a")
 print("""
                    ...
@@ -169,7 +169,7 @@ else:
 		usage()
 		sys.exit()
 	else:
-		print("Flooding WebSite Port 80 with 65000-byte packets for 99999 By DDoS Attack")
+		print("Flooding WebSite Port 80 with 65000-byte packets for 99999")
 		if len(sys.argv)== 3:
 			if sys.argv[2]=="safe":
 				set_safe()

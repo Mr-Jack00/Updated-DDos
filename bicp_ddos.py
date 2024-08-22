@@ -4,7 +4,6 @@
 # The DDoS Protocol is the most massive type of attack
 # This tool can tangodown nasa and more gov websites
 # 
-#
 # Author : Mr Jack , version 1.0
 # ----------------------------------------------------------------------------------------------
 import urllib.request, urllib.error, urllib.parse
